@@ -11,3 +11,5 @@ httpd -DFOREGROUND &
 php-fpm -F &
 
 wait
+
+chmod +x ./startup.sh
